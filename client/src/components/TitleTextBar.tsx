@@ -7,7 +7,7 @@ type TitleTextBarProps = {
     text: string
 }
 
-function TitleTextBar({text}: TitleTextBarProps) {
+export default function TitleTextBar({text}: TitleTextBarProps) {
     return (
         <Paper
             sx={{
@@ -28,5 +28,3 @@ function TitleTextBar({text}: TitleTextBarProps) {
         </Paper>
     )
 }
-
-export default TitleTextBar

@@ -17,7 +17,7 @@ export default function ActorCard() {
 
                 />
                 <CardContent sx={{ textAlign: "center" }}>
-                    <Typography variant="subtitle1" fontWeight="bold" noWrap>
+                    <Typography component={Link} to={`/actors/1`} variant="subtitle1" fontWeight="bold" sx={{ textDecoration: "none", color: "inherit", "&:hover": { textDecoration: "underline" } }}>
                         {sampleData.actor1}
                     </Typography>
                 </CardContent>

@@ -12,7 +12,8 @@ dist
 dist-ssr
 *.local
 
-src/sample-data
+client/src/sample-data/
+*/.DS_Store
 
 # Editor directories and files
 .vscode/*

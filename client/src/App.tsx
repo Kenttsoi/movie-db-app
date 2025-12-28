@@ -6,6 +6,8 @@ import MovieDetail from './pages/MovieDetail';
 import Actors from './pages/Actors';
 import ActorDetail from './pages/ActorDetail';
 import Publishers from './pages/Publishers';
+import PublisherDetail from './pages/PublisherDetail';
+import SeriesDetail from './pages/SeriesDetail';
 
 function App() {
 
@@ -19,7 +21,8 @@ function App() {
           <Route path="/actors" element={<Actors />} />
           <Route path="/actors/:id" element={<ActorDetail />} />
           <Route path="/publishers" element={<Publishers />} />
-          
+          <Route path="/publishers/:id" element={<PublisherDetail />} />
+          <Route path="/series/:id" element={<SeriesDetail />} />
         </Routes>
       </BrowserRouter>
     </>
